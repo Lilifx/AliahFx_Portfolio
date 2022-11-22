@@ -1,8 +1,69 @@
 html{
-    background-color: #cdc1ff;
+    background-color: #f1faee;
 }
 img{
     width: 150px;
     height: 200px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap:  20px;
+    text-align: center;
+    border: 5px solid white;
+}
+#experience{
+
+    border: 5px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#education{
+
+    border: 5px solid white;
+    border-radius: 5px;
+    text-align: center;  
+    padding: 50px;;
+}
+
+
+#skills{
+    border: 5px solid white;
+    border-radius: 5px;
+    text-align: center;
+  
+}
+
+
+#projects{
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap:  20px;
+    text-align: center;
+    border: 5px solid white;
+}
+
+#projects h2{
+ padding-right: 675px;
+}
+
+a{
+    cursor: pointer;
+}
+
+#projects img{
+    width: 300px;
 }
 
